@@ -1,4 +1,4 @@
-FROM nginx:mainline as builder
+FROM nginx:7.6.1810
 
 ARG ENABLED_MODULES
 
